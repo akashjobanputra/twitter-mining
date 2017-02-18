@@ -17,13 +17,13 @@ public class TweetManager {
 		}
 		else if (args[0].equals("list")) {
 			List tweets = mgr.listTweets();
-            for (int i = 0; i < tweets.size(); i++) {
-                
-            	Tweet theEvent = (Tweet) tweets.get(i);
-                System.out.println(
-                        "Text: " + theEvent.getText() + " Created at: " + theEvent.getDate()
-                );
-            }
+			for (Object tweet : tweets) {
+
+				Tweet theEvent = (Tweet) tweet;
+				System.out.println(
+						"Text: " + theEvent.getText() + " Created at: " + theEvent.getDate()
+				);
+			}
         }
 
 		HibernateUtil.getSessionFactory().close();

@@ -1,11 +1,11 @@
 package com.hibernate.tweet;
 
-import org.hibernate.Session;
-
-import java.util.*;
-
 import com.hibernate.tweet.domain.Tweet;
 import com.hibernate.tweet.util.HibernateUtil;
+import org.hibernate.Session;
+
+import java.util.Date;
+import java.util.List;
 
 public class TweetManager {
 

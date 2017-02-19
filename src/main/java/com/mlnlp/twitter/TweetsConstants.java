@@ -12,7 +12,7 @@ public class TweetsConstants {
 	
 	public static final String TWEET_MYSQL_SERVER_NAME = "localhost";
 	public static final String TWEET_MYSQL_USER_NAME = "root";
-	public static final String TWEET_MYSQL_PSWD = "mysql";
+	public static final String TWEET_MYSQL_PSWD = "";
 	public static final String TWEET_MYSQL_DB_NAME = "politic";
 	public static final int TOTAL_TWEETS_NO = 38937804;
 }
